@@ -1,0 +1,6 @@
+{
+  "name": "claude-project-in-title",
+  "owner": { "name": "CoronRing" },
+  "description": "Project in Title: tags Claude Code session titles with a coloured project marker.",
+  "plugins": [{ "name": "project-in-title", "source": "./" }]
+}

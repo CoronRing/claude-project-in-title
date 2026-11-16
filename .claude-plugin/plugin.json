@@ -1,0 +1,20 @@
+{
+  "name": "project-in-title",
+  "displayName": "Project in Title",
+  "version": "0.1.0",
+  "description": "Tags each session title with a coloured project marker, e.g. \"🟣 my-app · Fix login bug\", so a date-sorted session list still shows which project each chat belongs to.",
+  "author": { "name": "CoronRing", "url": "https://github.com/CoronRing" },
+  "homepage": "https://github.com/CoronRing/claude-project-in-title",
+  "repository": "https://github.com/CoronRing/claude-project-in-title",
+  "license": "MIT",
+  "icon": "./.claude-plugin/icon.png",
+  "keywords": ["sessions", "titles", "sidebar", "projects"],
+  "userConfig": {
+    "colors": {
+      "type": "string",
+      "title": "Project colours",
+      "description": "Comma-separated project=colour pairs, e.g. \"my-app=purple, docs=green\". Colours: purple, blue, green, yellow, orange, red, brown, black, white. Projects not listed get a colour picked from their name.",
+      "default": ""
+    }
+  }
+}
